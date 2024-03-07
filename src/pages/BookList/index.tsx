@@ -69,7 +69,7 @@ const BookList: React.FC = () => {
         </Button>
       </Box>
 
-      <BookTable books={books} handleDeleteClick={handleDeleteClick} />
+      {books.length ? <BookTable books={books} handleDeleteClick={handleDeleteClick} /> : 'Please add books'}
 
       <DeleteBookDialog
         open={deleteDialogOpen}
