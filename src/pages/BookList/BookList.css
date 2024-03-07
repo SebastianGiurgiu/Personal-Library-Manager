@@ -1,0 +1,18 @@
+.book-list-container {
+  margin: 20px;
+}
+
+.table-header {
+  background-color: #f0f0f0;
+}
+
+.responsive-table-container {
+  overflow-x: auto;
+}
+
+.description-cell {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
